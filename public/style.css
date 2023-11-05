@@ -1,0 +1,18 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.button-container button {padding: 10px 20px;}
+#jsonViewer {border: 1px solid grey;}
+.input-group {width: 300px;}
+.login-group, .updateAuthor, .updateBook {width: 200px;}
+#formsContainer button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+#prev, #next {
+    display: none;
+}
